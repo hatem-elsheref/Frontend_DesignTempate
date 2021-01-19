@@ -1,0 +1,530 @@
+body{
+    background-color: #FFF;
+}
+.fa{
+    color:#2dcc70;
+    font-size: 1.5rem;
+}
+.container{
+    width: 1200px;
+    margin:0 auto;
+}
+
+/*
+Start Header And Navbar
+*/
+
+.header .slider{
+    background-image: url(../img/client1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -150px;
+    height: 500px;
+
+
+}
+.header .navbar{
+    background-color: #242a2c;
+
+}
+.header .navbar ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin-top: 0px;
+}
+.header .navbar ul li{
+  display: inline-block;
+  padding: 20px;
+  float: right;
+}
+.header .navbar ul li a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .header .navbar .navbar-brand{
+      float: left;
+      color: #FFF;
+      font-family: monospace;
+  }
+.navbar-brand span{
+      color: #2dcc70;
+  }
+.intro{
+    margin: 0px auto;
+    text-align: center;
+    width: 600px;
+    padding-top: 300px;
+}
+.intro h2{
+    margin: 0px auto;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: monospace;
+    color: #fff;
+    border-bottom:4px solid #fff;
+    border-top:4px solid #fff;
+    padding: 2px;
+    margin-bottom: 15px;
+}
+.intro a{
+    color:#fff;
+    padding: 10px;
+    font-family: monospace;
+    background-color:transparent;
+    width: 120px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.header .navbar ul li a:hover{
+    color: #2dcc70;
+    cursor: pointer;
+}
+.header .navbar ul li a:active{
+    color: #81CAE0;
+    cursor: pointer;
+}
+.header .navbar .active{
+    color: #2dcc70;
+}
+.intro a:hover{
+    color: #2dcc70;
+    cursor: pointer;
+}
+/*
+End Header And Navbar
+*/
+
+/*
+Start Features
+*/
+.clearfix{
+    clear: both;
+}
+
+.features{
+    overflow: hidden;
+
+    padding: 15px;
+    
+
+}
+.features .col{
+    padding: 25px 0px;
+    float: left;
+    width: 33.3333%;
+   
+}
+.features .col h1{
+    text-align:justify;
+    font-family:monospace;
+    text-transform: capitalize;
+    color: #555;
+}
+.features .col p{
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color: grey;
+    opacity: 0.8;
+    line-height: 1.5;
+}
+/*
+End Features
+*/
+/*
+Start About Me
+*/
+.about-me{
+    margin: 0px;
+    padding: 0px;;
+    margin-top: 20px;
+    background-color: #F2F2F2;
+    overflow: hidden;
+    margin-bottom: 25px;
+
+}
+.about-me-img{
+float: left;
+width: 40%;
+}
+.about-me-img img{
+    width: 100%;
+
+   
+}
+.about-me-info{
+    float: left;
+    width: 60%;
+}
+.about-me-hobbies .fa{
+    color:#2dcc70;
+    font-size: 1.5rem;
+}
+.about-me-info h2,.about-me-info> p{
+    margin-left: 30px;
+}
+.about-me-info h2{
+    font-family: monospace;
+    text-transform: capitalize;
+    color: #555;
+}
+.about-me-info >p{
+    line-height: 1.5;
+    text-align: left;
+    font-family: sans-serif;
+    color: grey;
+    opacity: 0.8;
+}
+.about-me-info >p:last-of-type{
+   margin-top: 20px;
+}
+.about-me-hobbies{
+  overflow: hidden;
+    margin-left: 30px;
+}
+.about-me-hobbies .hob h3{
+    color: #555;
+    font-family: monospace;
+}
+.about-me-hobbies .hob p{
+
+    line-height: 1;
+  font-family: sans-serif;
+    color: grey;
+    opacity: 0.8;
+}
+.hob{
+    float: left;
+    width: 50%;
+    height: 90px;
+}
+.hob h1{
+    padding-left: 10px;
+}
+.my-skills{
+    overflow: hidden;
+    margin:0px ;
+    padding: 0px;
+    margin-top: 2px;
+   height: 300px;
+}
+.skills{
+    float: left;
+    width: 50%;
+}
+.my-skills .skills h2{
+    color: #555;
+    font-weight: bold;
+    font-family: monospace;
+    text-transform: capitalize;
+}
+.my-skills .skills p{
+    line-height: 1.5;
+    color: grey;
+    opacity: 0.8;
+    font-family: sans-serif;
+}
+.my-skills .skills button{
+    width: 120px;
+    font-weight: bold;
+    font-family: monospace;
+    text-transform: capitalize;
+    color: #2dcc70;
+    border:3px solid #2dcc70;
+    background-color: #FFF;
+    padding: 15px;
+}
+.my-skills .skills button:hover{
+    color: white;
+    background-color: #2dcc70;
+}
+.progress{
+    float: left;
+    width:50%;
+}
+.my-skills .progress .myskill div{
+background-color: #ddd;
+
+width: 100%;
+}
+.my-skills .progress .myskill p{
+    color: #555;
+    font-weight: bold;
+    font-family: monospace;
+    margin-bottom: 6px;
+    }
+    
+
+.my-skills .progress .myskill div span{
+
+    background-color: #2dcc70;
+   padding: 7px 0px;
+    display: block; 
+    width: 20px;
+    color: #FFF;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+
+}
+
+
+/*
+resume
+*/
+.resume{
+    background-color: #f2f2f2;
+    text-align: center;
+   padding: 50px;
+}
+.resume h2{
+    color: #555;
+    font-family: monospace;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.resume p{
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: sans-serif;
+    color: grey;
+    opacity: 0.8;
+}
+.resume button{
+    width: 180px;
+    font-weight: bold;
+    font-family: monospace;
+    text-transform: capitalize;
+    color: #2dcc70;
+    border:3px solid #2dcc70;
+    background-color: #FFF;
+    padding: 15px;
+    font-size: large;
+}
+.resume button:hover{
+    color: white;
+    background-color: #2dcc70;
+}
+/*
+education
+*/
+.my-education{
+    overflow: hidden;
+    margin:0px ;
+    padding: 0px;
+    margin-top: 25px;
+    background-color: #F2F2F2;
+    padding: 25px 0;
+    margin-bottom: 25px;
+}
+.education{
+    float: left;
+    width: 50%;
+}
+.my-education .education h2{
+    color: #555;
+    font-family: monospace;
+    font-weight: bold;
+    text-transform: capitalize;
+   
+}
+.my-education .progress h5{
+    color: grey;
+    opacity: 0.8;
+    font-family: monospace;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-left: 25px;
+}
+.my-education .education p{
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: sans-serif;
+    color: grey;
+    opacity: 0.8;
+}
+.progress{
+    float: left;
+    width:50%;
+}
+.my-education .progress h2{
+    color: #555;
+    font-family: monospace;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-left: 25px;
+}
+.my-education .progress p{
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: sans-serif;
+    color: grey;
+    margin-left: 25px;
+    opacity: 0.8;
+}
+.my-education .progress button{
+    width: 100px;
+    font-weight: bold;
+    font-family: monospace;
+    text-transform: capitalize;
+    border: none;
+    padding: 6px 0px;
+    color: white;
+    background-color: #2dcc70;
+    font-size: large;
+    margin-left: 25px;
+}
+
+.my-education .progress hr{
+    width: 70%;
+    margin: 25 auto;
+
+}
+.resume blockquote{
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: sans-serif;
+    color: grey;
+    margin-left: 25px;
+    opacity: 0.8;
+    font-style: italic;
+}
+#testimonial{
+    margin-bottom: 25px;
+}
+.resume h2{
+    text-transform: uppercase;
+}
+.resume h3{
+    text-transform: uppercase;
+    color: #2dcc70;
+    opacity: 0.8;
+    font-family: monospace;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-left: 25px;
+}
+.resume ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 4px;
+}
+.resume ul li i{
+    font-size: 0.5rem;
+}
+.active{
+    color: #2dcc70;
+}
+.gallary{
+    margin-top: 25px;
+}
+.gallary .container .row{
+   overflow: hidden;
+  
+}
+
+.gallary .container .row .colume{
+float: left;
+width: 33.33%;
+margin-bottom: 15px;
+margin-top: 25px;
+/*
+float: left;
+margin-left:2%;
+height: 370px;
+width: 30%;
+*/
+}
+.gallary .container .row .colume img{
+    width: 90%;
+    margin: 10px;
+    height: 350px;
+
+}
+.gallary h1{
+    text-transform: uppercase;
+    color: #555;
+    font-family: monospace;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.gallary p{
+    margin-top: 25px;
+    text-transform: uppercase;
+    color: grey;
+    opacity: 0.8;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;    
+    text-align: center;
+    line-height: 1.7;
+    font-size: 18px;
+}
+footer{
+    background-color: #242a2c;
+    color: #fff;
+}
+footer .footer-section{
+    overflow: hidden;
+}
+footer .footer-section .col-2{
+    float: left;
+    width: 50%;
+  
+}
+.form-control{
+    display: block;
+    background-color: #444;
+    border: none;
+    margin-bottom: 20px;
+    width: 400px;
+    padding: 15px;
+    color:#fff;
+}
+.form-control1{
+    font-size: 1rem;
+    font-weight: bold;
+    display: block;
+    border: none;
+    margin-bottom: 20px;
+    width: 400px;
+    text-transform: capitalize;
+    font-family: monospace;
+}
+.right{
+    margin: 50px 0px;
+    text-align: left;
+}
+form input[type=submit]{
+    background-color: black;
+    color: #fff;
+    width: 100px;
+    font-family: monospace;
+    padding: 20px;
+}
+.left{
+    text-align: left;
+    margin-top: 50px;
+    font-family: monospace;
+    
+}
+.left p{
+    line-height: 2;
+    font-family: sans-serif;
+}
+address{
+    line-height: 2;
+    font-weight: bold;
+}
+.left h3{
+    font-size: 18px;
+}
+.left h3 span{
+    font-size: 14px;
+    opacity: 0.9;
+}
